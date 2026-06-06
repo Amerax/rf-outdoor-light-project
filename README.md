@@ -30,6 +30,6 @@ Schema
 
 <img width="686" height="438" alt="image" src="https://github.com/user-attachments/assets/05ff829e-3f1f-498f-8609-5f6c7b1dde74" />
 
-Image of completed circuit 
+Image of completed circuit (my camera is not very good sorry)
 
 <img width="1068" height="775" alt="image" src="https://github.com/user-attachments/assets/e87f57ed-46be-46d6-8be9-fb6f3f7455a4" />
