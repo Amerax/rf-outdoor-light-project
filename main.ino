@@ -79,5 +79,38 @@ void setup(){
     Serial.println();
     Serial.print("Booting, please wait");
 
-    
+    mySwitch.enableTransmit(10);
+
+  Serial.println("RF TRANSMITTER READY");
+
+  // connection for wifi
+
+  Serial.println("Connecting WiFi...");
+
+  while (WiFi.begin(ssid, pass) != WL_CONNECTED) {
+
+    Serial.println("Retrying WiFi...");
+    delay(3000);
+  }
+
+  IPAdress ip;
+  do{
+    delay(1000);
+    ip = Wifi.localIP();
+
+    Serial.print("Current IP is: ");
+    serial.println(ip);
+  }
+  while(ip[0]==0);
+
+  Serial.println("Wifi is connected");
+  Serial.print("Final ip is");
+  Serial.println(ip);
+
+  server.begin();
+  Serial.println("Server started");
+
+  timeClient.begin();
+  Serial.println("Time client has started");
 }
+
