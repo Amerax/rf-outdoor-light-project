@@ -32,3 +32,52 @@ void sendRF(){
 
     Serial.println("Signal done");
 }
+
+void checkSchedule(){
+    timeClient.update();
+
+    int hour = timeClient.getHours();
+    int minute = timeClient.getMinutes();
+
+    // ysed to print time every 10 seconds
+    static unsigned long lastPrint = 0;
+
+    if(millis()-lastPrint >1000){
+        Serial.print("Current Time: ");
+        Serial.print(hour);
+
+        Serial.print(":");
+
+        if(minute<10)
+            {
+            Serial.print("0";)
+        }
+    Serial.println(minute);
+    lastPrint - millis();
+    }
+    
+    if(hour == scheduledHour &&
+      minute == scheduledMinute &&
+      !triggeredToday){
+        Serial.println("Auto light is turning on");
+      
+        sendRF();
+
+        triggeredToday = true;
+    }
+
+    if(hour == 3 && minute == 0){
+        triggeredToday = false;
+
+    }
+}
+
+void setup(){
+    Serial.begin(115200); // this is the baud rate
+    delay(3000);
+
+    Serial.println();
+    Serial.print("Booting, please wait");
+
+    
+}
