@@ -33,3 +33,7 @@ Schema
 Image of completed circuit (my camera is not very good sorry)
 
 <img width="1068" height="775" alt="image" src="https://github.com/user-attachments/assets/e87f57ed-46be-46d6-8be9-fb6f3f7455a4" />
+
+Demo link:
+
+https://www.youtube.com/watch?v=M-ceNtTLbqY
