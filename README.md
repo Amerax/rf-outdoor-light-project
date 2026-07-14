@@ -27,13 +27,8 @@ RF DATA (pin 5) to Arduino Pin 10
 
 Quick BOM (more details in csv file)
 
-Arduino UNO R4 WiFi - Qty: 1 - Cost: $20.00
-433MHz RF Transmitter - Qty: 1 - Cost: $1.50
-433MHz RF Controller - Qty: 1 - Cost: $15.00
-USB-C Cable - Qty: 1 - Cost: $3.00
-Jumper Wires (Female) - Qty: 3 - Cost: $1.00
-Solderless Breadboard - Qty: 1 - Cost: $3.00
-USB Power Adapter - Qty: 1 - Cost: $5.00
+<img width="314" height="146" alt="image" src="https://github.com/user-attachments/assets/c6937544-65f8-4b30-90b2-8405d139d20b" />
+
 
 Total Cost: $43.50
 
