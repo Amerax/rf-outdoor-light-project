@@ -45,3 +45,8 @@ Image of completed circuit (my camera is not very good sorry)
 Demo link:
 
 https://www.youtube.com/watch?v=M-ceNtTLbqY
+
+Optional Case Included:
+
+<img width="687" height="835" alt="image" src="https://github.com/user-attachments/assets/4d9cd76a-ea59-4eb5-bdf0-d63b4eeb6fc0" />
+
