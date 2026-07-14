@@ -29,6 +29,8 @@ Quick BOM (more details in csv file)
 
 <img width="314" height="146" alt="image" src="https://github.com/user-attachments/assets/c6937544-65f8-4b30-90b2-8405d139d20b" />
 
+Note: I wrote the scehma for arduino cuz it's more popular but this also works with ESP32 as shown in the images. But just make sure you use the same pins as I wrote above and it works. 
+The demo video shows it with arduino and the image in hardware shows it with ESP32! 
 
 Total Cost: $43.50
 
