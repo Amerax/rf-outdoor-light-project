@@ -1,6 +1,6 @@
 # rf-outdoor-light-project
 
-A simple project that lets you control 433MHz RF lights using a local webpage hosted on an Arduino UNO R4 WiFi.
+A simple project that lets you control 433MHz RF lights using a local webpage hosted on an Arduino UNO R4 WiFi or ESP32.
 
 Features
 Manual Control: Toggle lights instantly via a button on the webpage.
