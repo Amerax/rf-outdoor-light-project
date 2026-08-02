@@ -18,6 +18,8 @@ RF Transmission: Uses the RCSwitch library to send a 24-bit code (11206632) out 
 
 Double-Trigger Prevention: A logic flag ensures the RF signal only sends once when the target minute hits, resetting automatically at 3:00 AM.
 
+Onshape Link: https://cad.onshape.com/documents/eef422d60583b873929a7558/w/0fc1c908cc83cf96700e0fc9/e/6d5f1e9001d06be59a7583eb?renderMode=0&uiState=6a6f7e8d9649816d2430750a
+
 Wiring Layout
 RF GND (pin 1) to Arduino GND
 
