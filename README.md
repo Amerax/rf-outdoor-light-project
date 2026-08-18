@@ -18,6 +18,8 @@ Onshape Link: https://cad.onshape.com/documents/eef422d60583b873929a7558/w/0fc1c
 
 To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. Or just download the .ino file from this repo and run it with the arduino ide or any ide that lets you upload to a microcontroller. 
 
+*You do not need to edit code except for where it says to enter your network details, your ssid and internet password. Make sure you fill in these two fields before running.  
+
 Wiring Layout
 RF GND (pin 1) to Arduino GND
 
