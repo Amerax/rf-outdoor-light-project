@@ -16,7 +16,7 @@ RF Transmission: Uses the RCSwitch library to send a 24-bit code (11206632) out 
 
 Onshape Link: https://cad.onshape.com/documents/eef422d60583b873929a7558/w/0fc1c908cc83cf96700e0fc9/e/6d5f1e9001d06be59a7583eb?renderMode=0&uiState=6a6f7e8d9649816d2430750a
 
-To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. 
+To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. Or just download the .ino file from this repo and run it with the arduino ide or any ide that lets you upload to a microcontroller. 
 
 Wiring Layout
 RF GND (pin 1) to Arduino GND
