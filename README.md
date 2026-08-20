@@ -38,7 +38,9 @@ This is useful if you do not already know the RF code used by your lights.
 
 transmitter.ino  
 This is a basic RF transmitter test program.  
-------------------------------------------------------------------
+
+---
+
 Wiring Layout  
 RF GND (pin 1) to Arduino GND  
 
