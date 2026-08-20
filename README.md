@@ -16,7 +16,7 @@ RF Transmission: Uses the RCSwitch library to send a 24-bit code (11206632) out 
 
 To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. Or just download the .ino file from this repo and run it with the arduino ide or any ide that lets you upload to a microcontroller. 
 
-*You do not need to edit code except for where it says to enter your network details, your ssid and internet password and your rf code freq if needed (optional). Make sure you fill in these two fields before running.  
+*You do not need to edit code except for where it says to enter your network details, your ssid and internet password and your rf code freq as mentioned before. Make sure you fill in these two fields before running.  
 
 **Uploading the Code**  
 
