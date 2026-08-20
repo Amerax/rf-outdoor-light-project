@@ -28,7 +28,7 @@ void sendRF(){
     mySwitch.setProtocal(1);
     mySwitch.setPulseLength(394);
     mySwitch.setRepeatTransmit(2);
-    mySwitch.send(11206621, 24);
+    mySwitch.send(11206621, 24); // you cane change the rf code here, find yours if needed with the reciever.ino
 
     Serial.println("Signal done");
 }
