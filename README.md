@@ -14,18 +14,27 @@ WiFi & Web Server: Connects to your network and runs a server. It reads the web 
 
 RF Transmission: Uses the RCSwitch library to send a 24-bit code (11206632) out of Digital Pin 10 to trigger your light switch. However your code may be different depending on model, simply change it. 
 
-Onshape Link: https://cad.onshape.com/documents/eef422d60583b873929a7558/w/0fc1c908cc83cf96700e0fc9/e/6d5f1e9001d06be59a7583eb?renderMode=0&uiState=6a6f7e8d9649816d2430750a
-
 To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. Or just download the .ino file from this repo and run it with the arduino ide or any ide that lets you upload to a microcontroller. 
 
 *You do not need to edit code except for where it says to enter your network details, your ssid and internet password. Make sure you fill in these two fields before running.  
 
-Wiring Layout
-RF GND (pin 1) to Arduino GND
+**Uploading the Code**  
 
-RF VCC (pin 3) to Arduino 5V
+1. Open `main.ino` (or desired code file) in the Arduino IDE either download the file and open it, or just copy and paste its contents into the ide yourself.  
+2. Connect your Arduino to your computer with a USB cable.  
+3. Select the correct **Board** and **Port** under **Tools**.  
+4. Click **Upload** (→).  
+5. Wait for the upload to finish. The Arduino will automatically restart and run the program.
 
-RF DATA (pin 5) to Arduino Pin 10 
+How to use the code files: 
+The main.ino has the entire code you need with the html server, and all the features. But you need to know the code 
+
+Wiring Layout  
+RF GND (pin 1) to Arduino GND  
+
+RF VCC (pin 3) to Arduino 5V  
+
+RF DATA (pin 5) to Arduino Pin 10   
 
 Quick BOM (more details in csv file)
 
@@ -47,6 +56,8 @@ Image of completed circuit (my camera is not very good sorry)
 Demo link:
 
 https://www.youtube.com/watch?v=M-ceNtTLbqY
+
+Onshape Link: https://cad.onshape.com/documents/eef422d60583b873929a7558/w/0fc1c908cc83cf96700e0fc9/e/6d5f1e9001d06be59a7583eb?renderMode=0&uiState=6a6f7e8d9649816d2430750a
 
 Optional Case Included:
 
