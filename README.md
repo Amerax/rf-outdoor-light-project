@@ -16,7 +16,7 @@ RF Transmission: Uses the RCSwitch library to send a 24-bit code (11206632) out 
 
 To run the code, wire the components using the schematics, then open the arduino ide and copy and paste the relevent code you want and connect your computer with the microcontroler and upload code. Or just download the .ino file from this repo and run it with the arduino ide or any ide that lets you upload to a microcontroller. 
 
-*You do not need to edit code except for where it says to enter your network details, your ssid and internet password. Make sure you fill in these two fields before running.  
+*You do not need to edit code except for where it says to enter your network details, your ssid and internet password and your rf code freq if needed (optional). Make sure you fill in these two fields before running.  
 
 **Uploading the Code**  
 
@@ -26,8 +26,18 @@ To run the code, wire the components using the schematics, then open the arduino
 4. Click **Upload** (→).  
 5. Wait for the upload to finish. The Arduino will automatically restart and run the program.
 
-How to use the code files: 
-The main.ino has the entire code you need with the html server, and all the features. But you need to know the code 
+Code files overview:  
+
+main.ino  
+This is the main program and the file most users should use. Has all the advertised features and webserver etc. 
+
+reciver.ino  
+This is the RF receiver/testing program.  
+It can be used with a compatible 433MHz RF receiver to help detect and identify the RF codes being transmitted by a remote control.  
+This is useful if you do not already know the RF code used by your lights.  
+
+transmitter.ino  
+This is a basic RF transmitter test program.  
 
 Wiring Layout  
 RF GND (pin 1) to Arduino GND  
